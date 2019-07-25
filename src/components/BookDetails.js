@@ -4,7 +4,7 @@ import { BookContext } from "../contexts/BookContext";
 const BookDetails = ({ book: { title, author, id } }) => {
   const { dispatch } = useContext(BookContext);
   return (
-    <li key={id} className="flex space-between align-center">
+    <li key={id} className="flex space-between align-center border-bottom">
       <div>
         {title} : {author}
       </div>

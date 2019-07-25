@@ -7,7 +7,7 @@ import NewBookForm from "./components/NewBookForm";
 export default () => (
   <BookContextProvider>
     <Navbar />
-    <BookList />
     <NewBookForm />
+    <BookList />
   </BookContextProvider>
 );
